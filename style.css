@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content:center;
+  }
+  .star{
+    width: 100vw;
+    height: 70vh;
+    padding: 0.5em;
+    font-size: 20px;
+    fill: grey;
+  }
+  .stars{
+    display: flex;
+    flex-direction:row;
+    width: 50vw;
+    height: 50vh;
+
+  }
+  .stars:hover svg{
+    fill: red;
+  }
+  .stars .star:hover ~ .star{
+    fill: grey;
+  }
+
+  .active{
+    fill: yellowgreen;
+    background-color: aquamarine;
+  }
+  
+  
+  
+  
+  
+  
